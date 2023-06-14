@@ -36,7 +36,7 @@ public class LoginTests {
         password.sendKeys("Alex@2001");
 
         wd.findElement(By.xpath("//button[1]")).click();
-         Assert.assertTrue(wd.findElements(By.xpath("//*[.='Sign Out']")).size()>0);
+        Assert.assertTrue(wd.findElements(By.xpath("//*[.='Sign Out']")).size() > 0);
     }
 
     @Test
@@ -47,16 +47,32 @@ public class LoginTests {
         emailInput.clear();
         emailInput.sendKeys("pavlovae434gmail.com");
 
-       WebElement password = wd.findElement(By.xpath("//input[2]"));
+        WebElement password = wd.findElement(By.xpath("//input[2]"));
         password.click();
         password.clear();
         password.sendKeys("Alex@2001");
 
         wd.findElement(By.xpath("//button[1]")).click();
-       // Assert.assertTrue(wd.findElements(By.xpath("//*[.='Sign Out']")).size()>0);
+        // Assert.assertTrue(wd.findElements(By.xpath("//*[.='Sign Out']")).size()>0);
 
     }
+    @Test
+    public void loginNegativTestWrongPassword() {
+        wd.findElement(By.xpath("//*[.='LOGIN']")).click();
+        WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
+        emailInput.click();
+        emailInput.clear();
+        emailInput.sendKeys("pavlovae434@gmail.com");
 
+        WebElement password = wd.findElement(By.xpath("//input[2]"));
+        password.click();
+        password.clear();
+        password.sendKeys("1");
+
+        wd.findElement(By.xpath("//button[1]")).click();
+        // Assert.assertTrue(wd.findElements(By.xpath("//*[.='Sign Out']")).size()>0);
+
+    }
     @AfterMethod
     public void tearDown() {
         //wd.quit();
