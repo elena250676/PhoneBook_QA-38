@@ -1,13 +1,10 @@
+package tests;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 
 public class RegistrationTests extends TestBase {
@@ -24,46 +21,35 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationPositive() {
         // open login form
-        wd.findElement(By.xpath("//*[.='LOGIN']")).click();
-
+        app.getUser().openLoginForm();
         // fill login form
-
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+        app.getUser().fillLoginForm("pavlovae434" + i + "@gmail.com", "Alex@2001");
+        app.getUser().submitRegistration();
+        app.getUser().pause(5000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
 
-        WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
-        emailInput.click();
-        emailInput.clear();
-        emailInput.sendKeys("abc" + i + "@def.com");
-
-        WebElement passInput = wd.findElement(By.xpath("//input[2]"));
-        passInput.click();
-        passInput.clear();
-        passInput.sendKeys("$Abcdef12345");
-
-        // click on button Registration
-        wd.findElement(By.xpath("//button[2]")).click();
-
-        pause(5000);
-//        Assert.assertTrue(wd.findElements(By.xpath("//*[.='Sign Out']")).size() > 0);
-        Assert.assertTrue(isElementPresent(By.xpath("//button")));
     }
 
+    //
     @Test
     public void registrationNegativeWrongEmail() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         String email = "abc" + i + "def.com", password = "$Abcdef12345";
-        openLoginForm();
-        fillLoginForm(email, password);
-        submitRegistration();
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(email, password);
+        app.getUser().submitRegistration();
     }
+
     @Test
     public void registrationNegativeWrongPassword() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         String email = "pavlovae434" + i + "@gmail.com", password = "1";
-        openLoginForm();
-        fillLoginForm(email, password);
-        submitRegistration();
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(email, password);
+        app.getUser().submitRegistration();
     }
+
 
     @AfterMethod
     public void tearDown() {
