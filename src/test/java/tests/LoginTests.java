@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -43,7 +44,35 @@ public class LoginTests extends TestBase {
 //        Assert.assertTrue(wd.findElements(By.xpath("//button")).size() > 0);
             Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
         }
+    @Test
+    public void loginPositiveUserData() {
+        // User user = new User("pavlovae434@gmail.com", "Alex@2001");
+        User user = new User().withEmail("pavlovae434@gmail.com").withPassword("Alex@2001");
 
+//        user.setEmail("pavlovae434@gmail.com");
+//        user.setPassword("Alex@2001");
+        //       user.setEmail("pavlovae434@gmail.com");
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+    }
+
+    @Test
+    public void loginPositiveUser() {
+        // User user = new User("pavlovae434@gmail.com", "Alex@2001");
+        User user = new User().withEmail("pavlovae434@gmail.com").withPassword("Alex@2001");
+
+//        user.setEmail("pavlovae434@gmail.com");
+//        user.setPassword("Alex@2001");
+        //       user.setEmail("pavlovae434@gmail.com");
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user.getEmail(), user.getPassword());
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+    }
 
     /*@Test
 //    public void loginNegativeTestWrongEmail(){
