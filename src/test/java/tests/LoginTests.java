@@ -23,7 +23,7 @@ public class LoginTests extends TestBase {
             app.getUser().logout();
         }
     }
-
+/*
     @Test
     public void loginPositiveTest() {
         // open login form
@@ -34,16 +34,18 @@ public class LoginTests extends TestBase {
         app.getUser().pause(3000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }
-        @Test
-        public void loginPositiveTestBase(){
-            String email = "abc@def.com", password = "$Abcdef12345";
-            app.getUser().openLoginForm();
-            app.getUser().fillLoginForm(email, password);
-            app.getUser().submitLogin();
-            app.getUser().pause(3000);
+
+    @Test
+    public void loginPositiveTestBase() {
+        String email = "abc@def.com", password = "$Abcdef12345";
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(email, password);
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
 //        Assert.assertTrue(wd.findElements(By.xpath("//button")).size() > 0);
-            Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
-        }
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+    }
+
     @Test
     public void loginPositiveUserData() {
         // User user = new User("pavlovae434@gmail.com", "Alex@2001");
@@ -58,7 +60,25 @@ public class LoginTests extends TestBase {
         app.getUser().pause(3000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }
+*/
+    @Test
+    public void loginPositiveUserBuilder() {
+        // User user = new User("pavlovae434@gmail.com", "Alex@2001");
+        User user = User.builder()
+                .email("pavlovae434@gmail.com")
+                .password("Alex@2001")
+                .build();
+//        user.setEmail("pavlovae434@gmail.com");
+//        user.setPassword("Alex@2001");
+        //       user.setEmail("pavlovae434@gmail.com");
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+    }
 
+/*
     @Test
     public void loginPositiveUser() {
         // User user = new User("pavlovae434@gmail.com", "Alex@2001");

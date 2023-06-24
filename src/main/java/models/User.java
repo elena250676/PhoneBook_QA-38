@@ -1,10 +1,20 @@
 package models;
 
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Builder
+@Getter
+@Setter
+@ToString
+
 public class User {
     String email;
     String password;
 
-    public String getEmail() {
+   /* public String getEmail() {
         return email;
     }
 
@@ -29,5 +39,5 @@ public class User {
         this.password = password;
         return this;
     }
-
+*/
 }

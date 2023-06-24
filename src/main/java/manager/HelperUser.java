@@ -39,4 +39,5 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[1]"), user.getEmail());
         type(By.xpath("//input[2]"), user.getPassword());
     }
+
 }
