@@ -5,31 +5,44 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-static AppManager app = new AppManager();
+    static AppManager app = new AppManager();
 
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
 
-
-//    WebDriver wd;
+    //    WebDriver wd;
 //
     @BeforeSuite
-    public void Setup(){
-       app.init();
+    public void Setup() {
+        app.init();
     }
 
     @AfterSuite
-    public void stop(){
-app.tearDown();
+    public void stop() {
+        app.tearDown();
     }
 
-//    public void click(By locator){
+    @BeforeMethod
+    public void startLogger(Method method) {
+        logger.info("Method " + method.getName() + " is started");
+    }
+
+    @AfterMethod
+    public void end() {
+        logger.info("==================================");
+    }
+
+
 //        wd.findElement(locator).click();
 //    }
 //
@@ -76,4 +89,4 @@ app.tearDown();
 //    public boolean isLogged(){
 //        return isElementPresent(By.xpath("//*[.='Sign Out']"));
 //    }
-}
+    }

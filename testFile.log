@@ -1,0 +1,65 @@
+12:12:56  INFO  tests.TestBase - MethodregistrationPositiveUser is started
+12:12:56  INFO  manager.AppManager - Start Searching element------>By.xpath: //*[.='LOGIN']
+12:12:56  INFO  manager.AppManager - Element with locator---->By.xpath: //*[.='LOGIN']is found
+12:12:56  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[1]
+12:12:56  INFO  manager.AppManager - Element with locator---->By.xpath: //input[1]is found
+12:12:56  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[2]
+12:12:56  INFO  manager.AppManager - Element with locator---->By.xpath: //input[2]is found
+12:12:57  INFO  manager.AppManager - Start Searching element------>By.xpath: //button[2]
+12:12:57  INFO  manager.AppManager - Element with locator---->By.xpath: //button[2]is found
+12:12:57  INFO  tests.TestBase - registrationPositive starts with credentials: login   pavlovae434@gmail.com   passwordAlex@2001
+12:13:02  INFO  manager.AppManager - Start Searching element------>By.xpath: //button
+12:13:02  INFO  manager.AppManager - Element with locator---->By.xpath: //buttonis found
+12:13:02  INFO  tests.TestBase - ---------------------------------
+12:16:05  INFO  tests.TestBase - MethodregistrationPositiveUser is started
+12:16:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //*[.='LOGIN']
+12:16:05  INFO  manager.AppManager - Element with locator---->By.xpath: //*[.='LOGIN']is found
+12:16:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[1]
+12:16:05  INFO  manager.AppManager - Element with locator---->By.xpath: //input[1]is found
+12:16:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[2]
+12:16:05  INFO  manager.AppManager - Element with locator---->By.xpath: //input[2]is found
+12:16:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //button[2]
+12:16:05  INFO  manager.AppManager - Element with locator---->By.xpath: //button[2]is found
+12:16:06  INFO  tests.TestBase - registrationPositive starts with credentials: login   pavlovae434@gmail.com   passwordAlex@2001
+12:16:11  INFO  manager.AppManager - Start Searching element------>By.xpath: //button
+12:16:11  INFO  manager.AppManager - Element with locator---->By.xpath: //buttonis found
+12:16:11  INFO  tests.TestBase - ---------------------------------
+12:18:36  INFO  tests.TestBase - MethodregistrationPositiveUser is started
+12:18:36  INFO  manager.AppManager - Start Searching element------>By.xpath: //*[.='LOGIN']
+12:18:36  INFO  manager.AppManager - Element with locator---->By.xpath: //*[.='LOGIN']is found
+12:18:36  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[1]
+12:18:36  INFO  manager.AppManager - Element with locator---->By.xpath: //input[1]is found
+12:18:36  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[2]
+12:18:36  INFO  manager.AppManager - Element with locator---->By.xpath: //input[2]is found
+12:18:36  INFO  manager.AppManager - Start Searching element------>By.xpath: //button[2]
+12:18:36  INFO  manager.AppManager - Element with locator---->By.xpath: //button[2]is found
+12:18:36  INFO  tests.TestBase - registrationPositive starts with credentials: login   pavlovae434@gmail.com   passwordAlex@2001
+12:18:41  INFO  manager.AppManager - Start Searching element------>By.xpath: //button
+12:18:41  INFO  manager.AppManager - Element with locator---->By.xpath: //buttonis found
+12:18:41  INFO  tests.TestBase - ---------------------------------
+12:20:49  INFO  tests.TestBase - MethodregistrationPositiveUser is started
+12:20:49  INFO  manager.AppManager - Start Searching element------>By.xpath: //*[.='LOGIN']
+12:20:49  INFO  manager.AppManager - Element with locator---->By.xpath: //*[.='LOGIN']is found
+12:20:49  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[1]
+12:20:49  INFO  manager.AppManager - Element with locator---->By.xpath: //input[1]is found
+12:20:49  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[2]
+12:20:49  INFO  manager.AppManager - Element with locator---->By.xpath: //input[2]is found
+12:20:49  INFO  manager.AppManager - Start Searching element------>By.xpath: //button[2]
+12:20:49  INFO  manager.AppManager - Element with locator---->By.xpath: //button[2]is found
+12:20:49  INFO  tests.TestBase - registrationPositive starts with credentials: login   pavlovae434@gmail.com   passwordAlex@2001
+12:20:54  INFO  manager.AppManager - Start Searching element------>By.xpath: //button
+12:20:54  INFO  manager.AppManager - Element with locator---->By.xpath: //buttonis found
+12:20:54  INFO  tests.TestBase - ---------------------------------
+12:23:05  INFO  tests.TestBase - MethodregistrationPositiveUser is started
+12:23:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //*[.='LOGIN']
+12:23:05  INFO  manager.AppManager - Element with locator---->By.xpath: //*[.='LOGIN']is found
+12:23:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[1]
+12:23:05  INFO  manager.AppManager - Element with locator---->By.xpath: //input[1]is found
+12:23:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //input[2]
+12:23:05  INFO  manager.AppManager - Element with locator---->By.xpath: //input[2]is found
+12:23:05  INFO  manager.AppManager - Start Searching element------>By.xpath: //button[2]
+12:23:05  INFO  manager.AppManager - Element with locator---->By.xpath: //button[2]is found
+12:23:05  INFO  tests.TestBase - registrationPositive starts with credentials: login   pavlovae434@gmail.com   passwordAlex@2001
+12:23:10  INFO  manager.AppManager - Start Searching element------>By.xpath: //button
+12:23:10  INFO  manager.AppManager - Element with locator---->By.xpath: //buttonis found
+12:23:10  INFO  tests.TestBase - ---------------------------------

@@ -1,12 +1,14 @@
 package tests;
 
+import manager.TestNgListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(TestNgListener.class)
 
 public class RegistrationTests extends TestBase {
 
@@ -40,8 +42,14 @@ public class RegistrationTests extends TestBase {
                 .password("Alex@2001")
                 .build();
         app.getUser().openLoginForm();
-        app.getUser().fillLoginForm("pavlovae434" + i + "@gmail.com", "Alex@2001");
+        logger.info("openRegistrationForm invoked");
+        app.getUser().fillLoginForm("pavlovae434"
+                + i + "@gmail.com", "Alex@2001");
+        logger.info("fillRegistrationForm invoked");
         app.getUser().submitRegistration();
+        logger.info("submitLogin invoked");
+        logger.info("registrationPositive starts with credentials: login   "
+                + user.getEmail()+"   password"+user.getPassword());
         app.getUser().pause(5000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }

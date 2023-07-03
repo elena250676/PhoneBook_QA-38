@@ -75,9 +75,29 @@ public class LoginTests extends TestBase {
         app.getUser().fillLoginForm(user);
         app.getUser().submitLogin();
         app.getUser().pause(3000);
+        logger.info("Logged in user");
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }
+    @Test
+    public void loginNegativeUserBuilder() {
+        // User user = new User("pavlovae434@gmail.com", "Alex@2001");
+        User user = User.builder()
+                .email("pavlovae434gmail.com")
+                .password("Alex@2001")
+                .build();
+//        user.setEmail("pavlovae434@gmail.com");
+//        user.setPassword("Alex@2001");
+        //       user.setEmail("pavlovae434@gmail.com");
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLogin();
+        app.getUser().pause(3000);
 
+        //app.getUser().isAlertPresent();
+        Assert.assertTrue(app.getUser().isWrongFormatMessage());
+        Assert.assertTrue(app.getUser().isAlertPresent());
+        //Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+    }
 /*
     @Test
     public void loginPositiveUser() {
