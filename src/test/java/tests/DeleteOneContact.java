@@ -14,12 +14,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DeleteOneContact extends TestBase {
-    Logger logger = LoggerFactory.getLogger(DeleteOneContact.class);
-    //WebDriver wd;
     @BeforeMethod
-    public void precondition() {
-        if (!app.getUser().isLogged()) {
-            String email = "pavlovae434@gmail.com", password = "Alex@2001";
+    public void precondition(){
+        if(!app.getUser().isLogged()){
+            String email = "abc@def.com", password = "$Abcdef12345";
             app.getUser().openLoginForm();
             app.getUser().fillLoginForm(email, password);
             app.getUser().submitLogin();
@@ -27,14 +25,14 @@ public class DeleteOneContact extends TestBase {
     }
 
     @Test
-    public void testDeleteOneContact() {
-
-        app.getHelperContact().openContactsList();
-       int i= app.getHelperContact().contactcListSize();
-        app.getHelperContact().click(By.cssSelector("div[class='contact-page_leftdiv__yhyke'] div div:nth-child(1)"));
-        app.getHelperContact().removeContact();
-        app.getHelperContact().pause(3000);
-        logger.info("Contact deleted");
-        Assert.assertTrue(app.getHelperContact().contactcListSize()<i);
+    public void removeOneContactPositive(){
+        int res = app.getHelperContact().removeOneContact();
+        Assert.assertEquals(-1, res);
     }
+
+//    @Test
+//    public void removeAllContactsPositive(){
+//        app.getHelperContact().removeAllContacts();
+//        Assert.assertTrue(app.getHelperContact().isNoContacts());
+//    }
 }

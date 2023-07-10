@@ -2,6 +2,8 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +18,13 @@ public class AppManager {
     EventFiringWebDriver wd;
     HelperUser user;
     HelperContact helperContact;
+    String browser;
+
+    public AppManager(String browser) {
+        this.browser = browser;
+    }
+
+
 
     public HelperUser getUser() {
         return user;
@@ -23,13 +32,22 @@ public class AppManager {
 
     public HelperContact getHelperContact() {
         return helperContact;
+
     }
 
     @BeforeSuite
     public void init() {
         // wd = new ChromeDriver();
         //contact = new HelperContact(wd);
-        wd = new EventFiringWebDriver(new ChromeDriver());
+        if (browser.equals(BrowserType.CHROME)) ;
+        {
+            wd = new EventFiringWebDriver(new ChromeDriver());
+            logger.info("Tests starting on Chrome");
+        }
+        if (browser.equals(BrowserType.FIREFOX)) {
+            wd = new EventFiringWebDriver(new FirefoxDriver());
+            logger.info("Tests starting on Firefox");
+        }
         helperContact = new HelperContact(wd);
         wd.register(new WebDriverListener());
         user = new HelperUser(wd);

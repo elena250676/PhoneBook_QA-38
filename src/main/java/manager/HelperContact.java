@@ -4,10 +4,13 @@ import models.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
 public class HelperContact extends HelperBase{
+    Logger logger = LoggerFactory.getLogger(HelperContact.class);
     public HelperContact(WebDriver wd) {
         super(wd);
     }
@@ -35,17 +38,27 @@ public class HelperContact extends HelperBase{
                 .getText();
         return phone.equals(contact.getPhone());
     }
-    public void openContactsList(){
-        wd.findElement(By.xpath("//*[.='CONTACTS']")).click();
-
-    }
-    public void removeContact(){
+    public int removeOneContact(){
+        int countBefore = countContacts();
+        logger.info("Amount of contacts before is " + countBefore);
+        click(By.xpath("//div[@class='contact-item_card__2SOIM']"));
         click(By.xpath("//button[.='Remove']"));
+        pause(5000);
+        int countAfter = countContacts();
+        logger.info("Amount of contacts after is " + countAfter);
+        return countAfter - countBefore;
     }
-    public int contactcListSize(){ List<WebElement> contacts =
-             wd.findElements(By.xpath("//div[@class='contact-page_leftdiv__yhyke']"));
-        return contacts.size();
 
+    public int countContacts(){
+        return wd.findElements(By.xpath("//div[@class='contact-item_card__2SOIM']")).size();
+    }
+    public void removeAllContacts(){
+        while (wd.findElements(By.xpath("//div[@class='contact-item_card__2SOIM']")).size() > 0){
+            removeOneContact();
+        }
+    }
+    public boolean isNoContacts(){
+        return wd.findElements(By.xpath("//div[@class='contact-item_card__2SOIM']")).size()==0;
     }
 
 }
