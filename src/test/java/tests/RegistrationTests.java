@@ -43,7 +43,7 @@ public class RegistrationTests extends TestBase {
                 .build();
         app.getUser().openLoginForm();
         logger.info("openRegistrationForm invoked");
-        app.getUser().fillLoginForm("pavlovae434"
+        app.getUser().fillLoginForm("pavlovae425"
                 + i + "@gmail.com", "Alex@2001");
         logger.info("fillRegistrationForm invoked");
         app.getUser().submitRegistration();
@@ -52,8 +52,9 @@ public class RegistrationTests extends TestBase {
                 + user.getEmail()+"   password"+user.getPassword());
         app.getUser().pause(5000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
+        app.getUser().logout();
     }
-/*
+
     @Test
     public void registrationNegativeWrongEmail() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
@@ -61,6 +62,9 @@ public class RegistrationTests extends TestBase {
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(email, password);
         app.getUser().submitRegistration();
+        if(app.getUser().isAlertPresent()) {
+            app.getUser().click(By.cssSelector("#root > div:nth-child(2) > div"));
+        }
     }
 
     @Test
@@ -70,6 +74,9 @@ public class RegistrationTests extends TestBase {
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(email, password);
         app.getUser().submitRegistration();
+        if(app.getUser().isAlertPresent()) {
+            app.getUser().click(By.cssSelector("#root > div:nth-child(2) > div"));
+        }
     }
 
 
@@ -77,5 +84,5 @@ public class RegistrationTests extends TestBase {
     public void tearDown() {
 
     }
-*/
+
 }
