@@ -1,0 +1,221 @@
+14:31:39  INFO  manager.AppManager - Tests starting on Chrome
+14:31:40  INFO  tests.TestBase - Method registrationPositiveUser is started
+14:31:40  INFO  manager.TestNgListener - Test registrationPositiveUser invoked
+14:31:40  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+14:31:40  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+14:31:40  INFO  tests.TestBase - openRegistrationForm invoked
+14:31:40  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+14:31:40  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+14:31:40  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+14:31:40  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+14:31:40  INFO  tests.TestBase - fillRegistrationForm invoked
+14:31:40  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[2]
+14:31:40  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[2] is found
+14:31:40  INFO  tests.TestBase - submitLogin invoked
+14:31:40  INFO  tests.TestBase - registrationPositive starts with credentials: login   joe_15321543@n.com   password$Asjj1234
+14:31:45  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:31:45  INFO  manager.WebDriverListener - Something went wrong!
+14:31:45  INFO  manager.WebDriverListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:45  INFO  manager.WebDriverListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:45  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1905.png
+14:31:45  INFO  manager.TestNgListener - Test registrationPositiveUser failed: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:45  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='HOME']
+14:31:45  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='HOME'] is found
+14:31:45  INFO  tests.TestBase - ==================================
+14:31:45  INFO  tests.TestBase - Method registrationPositiveUser is started
+14:31:45  INFO  manager.TestNgListener - Test registrationPositiveUser invoked
+14:31:45  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+14:31:45  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+14:31:45  INFO  tests.TestBase - openRegistrationForm invoked
+14:31:45  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+14:31:45  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+14:31:46  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+14:31:46  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+14:31:46  INFO  tests.TestBase - fillRegistrationForm invoked
+14:31:46  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[2]
+14:31:46  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[2] is found
+14:31:46  INFO  tests.TestBase - submitLogin invoked
+14:31:46  INFO  tests.TestBase - registrationPositive starts with credentials: login   joe_123454@n.com   password$Asjj1235
+14:31:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:31:51  INFO  manager.WebDriverListener - Something went wrong!
+14:31:51  INFO  manager.WebDriverListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:51  INFO  manager.WebDriverListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:51  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1911.png
+14:31:51  INFO  manager.TestNgListener - Test registrationPositiveUser failed: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='HOME']
+14:31:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='HOME'] is found
+14:31:51  INFO  tests.TestBase - ==================================
+14:31:51  INFO  tests.TestBase - Method registrationPositiveUser is started
+14:31:51  INFO  manager.TestNgListener - Test registrationPositiveUser invoked
+14:31:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+14:31:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+14:31:51  INFO  tests.TestBase - openRegistrationForm invoked
+14:31:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+14:31:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+14:31:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+14:31:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+14:31:51  INFO  tests.TestBase - fillRegistrationForm invoked
+14:31:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[2]
+14:31:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[2] is found
+14:31:51  INFO  tests.TestBase - submitLogin invoked
+14:31:51  INFO  tests.TestBase - registrationPositive starts with credentials: login   joe_123458@n.com   password$Asjj1236
+14:31:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:31:56  INFO  manager.WebDriverListener - Something went wrong!
+14:31:56  INFO  manager.WebDriverListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:56  INFO  manager.WebDriverListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:56  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1916.png
+14:31:56  INFO  manager.TestNgListener - Test registrationPositiveUser failed: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:31:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='HOME']
+14:31:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='HOME'] is found
+14:31:56  INFO  tests.TestBase - ==================================
+14:31:56  INFO  tests.TestBase - Method registrationPositiveUser is started
+14:31:56  INFO  manager.TestNgListener - Test registrationPositiveUser invoked
+14:31:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+14:31:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+14:31:57  INFO  tests.TestBase - openRegistrationForm invoked
+14:31:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+14:31:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+14:31:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+14:31:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+14:31:57  INFO  tests.TestBase - fillRegistrationForm invoked
+14:31:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[2]
+14:31:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[2] is found
+14:31:57  INFO  tests.TestBase - submitLogin invoked
+14:31:57  INFO  tests.TestBase - registrationPositive starts with credentials: login   joe_123459@n.com   password$Asjj1237
+14:32:02  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:32:02  INFO  manager.WebDriverListener - Something went wrong!
+14:32:02  INFO  manager.WebDriverListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:32:02  INFO  manager.WebDriverListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:32:02  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1922.png
+14:32:02  INFO  manager.TestNgListener - Test registrationPositiveUser failed: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:32:02  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='HOME']
+14:32:02  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='HOME'] is found
+14:32:02  INFO  tests.TestBase - ==================================
+14:32:02  INFO  tests.TestBase - Method registrationPositiveUser is started
+14:32:02  INFO  manager.TestNgListener - Test registrationPositiveUser invoked
+14:32:02  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+14:32:02  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+14:32:02  INFO  tests.TestBase - openRegistrationForm invoked
+14:32:02  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+14:32:02  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+14:32:02  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+14:32:02  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+14:32:02  INFO  tests.TestBase - fillRegistrationForm invoked
+14:32:02  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[2]
+14:32:02  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[2] is found
+14:32:02  INFO  tests.TestBase - submitLogin invoked
+14:32:02  INFO  tests.TestBase - registrationPositive starts with credentials: login   joe_123460@n.com   password$Asjj1238
+14:32:07  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button
+14:32:07  INFO  manager.WebDriverListener - Something went wrong!
+14:32:07  INFO  manager.WebDriverListener - unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:32:07  INFO  manager.WebDriverListener - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:32:07  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1927.png
+14:32:07  INFO  manager.TestNgListener - Test registrationPositiveUser failed: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=114.0.5735.199): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59163}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc0eebc222744f22dddb893e87a31479
+*** Element info: {Using=xpath, value=//button}
+14:32:07  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='HOME']
+14:32:07  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='HOME'] is found
+14:32:08  INFO  tests.TestBase - ==================================

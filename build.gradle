@@ -30,6 +30,11 @@ test {
 
 task mytest(type: Test) {
     useTestNG() {
+
+        def groups = System.getProperty('groups')
+        if(groups!=null){
+         includeGroups groups
+        }
         def suite = System.getProperty('suite', '')
         if (suite.equals('reg')) {
             suites 'src/test/resources/reg.xml'
@@ -39,7 +44,9 @@ task mytest(type: Test) {
             suites 'src/test/resources/delete.xml'
         } else if (suite.equals('deleteAll')) {
             suites 'src/test/resources/deleteAll.xml'
-        } else {
+        } else if(suite.equals('negative')) {
+            suites 'src/test/resources/negative.xml'
+        } else{
             suites 'src/test/resources/testng.xml'
         }
         if (project.hasProperty('browser')) {

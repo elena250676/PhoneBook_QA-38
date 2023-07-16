@@ -17,7 +17,7 @@ public class LoginTests extends TestBase {
          wd.navigate().to("https://telranedu.web.app/home");
          wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
      }*/
-    @BeforeMethod
+    @BeforeMethod(alwaysRun=true)
     public void precondition() {
         if (app.getUser().isLogged()) {
             app.getUser().logout();
@@ -61,7 +61,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }
 */
-    @Test
+    @Test(groups ={"smoke","positive"})
     public void loginPositiveUserBuilder() {
         // User user = new User("pavlovae434@gmail.com", "Alex@2001");
         User user = User.builder()
@@ -78,7 +78,7 @@ public class LoginTests extends TestBase {
         logger.info("Logged in user");
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//button")));
     }
-    @Test
+    @Test(groups ={"regress","negative"})
     public void loginNegativeUserBuilder() {
         // User user = new User("pavlovae434@gmail.com", "Alex@2001");
         User user = User.builder()
@@ -146,7 +146,7 @@ public class LoginTests extends TestBase {
         submitLogin();
     }
 */
-    @AfterMethod
+    @AfterMethod(alwaysRun=true)
     public void tearDown() {
         //wd.quit();
 

@@ -1,0 +1,30 @@
+15:20:49  INFO  manager.AppManager - Tests starting on Chrome
+15:20:51  INFO  manager.AppManager - Tests starting on Firefox
+15:20:53  INFO  tests.TestBase - Method loginNegativeUserBuilder is started
+15:20:53  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+15:20:58  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+15:20:58  INFO  manager.TestNgListener - Test loginNegativeUserBuilder invoked
+15:20:58  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+15:20:58  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+15:20:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+15:20:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+15:20:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+15:20:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+15:20:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[1]
+15:20:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[1] is found
+15:21:03  INFO  manager.TestNgListener - Test loginNegativeUserBuilder successful
+15:21:03  INFO  tests.TestBase - ==================================
+15:21:03  INFO  tests.TestBase - Method registrationNegativeWrongEmail is started
+15:21:03  INFO  manager.TestNgListener - Test registrationNegativeWrongEmail invoked
+15:21:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+15:21:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+15:21:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+15:21:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+15:21:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+15:21:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+15:21:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[2]
+15:21:04  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[2] is found
+15:21:04  INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: #root > div:nth-child(2) > div
+15:21:04  INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: #root > div:nth-child(2) > div is found
+15:21:05  INFO  manager.TestNgListener - Test registrationNegativeWrongEmail successful
+15:21:05  INFO  tests.TestBase - ==================================

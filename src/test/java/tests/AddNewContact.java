@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class AddNewContact extends TestBase {
     Logger logger = LoggerFactory.getLogger(AddNewContact.class);
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun=true)
     public void precondition() {
         if (!app.getUser().isLogged()) {
             String email = "pavlovae434@gmail.com", password = "Alex@2001";
@@ -21,7 +21,7 @@ public class AddNewContact extends TestBase {
         }
     }
 
-    @Test(invocationCount = 5)
+    @Test(invocationCount = 5,groups={"positive"})
     public void testAddNewContactPositive() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         Contact contact = Contact.builder()

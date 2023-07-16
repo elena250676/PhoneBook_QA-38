@@ -1,0 +1,2 @@
+15:15:20  INFO  manager.AppManager - Tests starting on Chrome
+15:15:23  INFO  manager.AppManager - Tests starting on Firefox

@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DeleteOneContact extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun=true)
     public void precondition() {
         if (!app.getUser().isLogged()) {
             String email = "pavlovae434@gmail.com", password = "Alex@2001";
