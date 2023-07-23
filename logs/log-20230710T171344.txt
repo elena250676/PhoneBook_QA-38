@@ -1,0 +1,230 @@
+17:13:45  INFO  manager.AppManager - Tests starting on Chrome
+17:13:46  INFO  tests.TestBase - Method removeAllContactsPositive is started
+17:13:46  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:13:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:13:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+17:13:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+17:13:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+17:13:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+17:13:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+17:13:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+17:13:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[1]
+17:13:51  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[1] is found
+17:13:51  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:52  INFO  manager.HelperContact - Amount of contacts before is 5
+17:13:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+17:13:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+17:13:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:57  INFO  manager.HelperContact - Amount of contacts after is 4
+17:13:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:57  INFO  manager.HelperContact - Amount of contacts before is 4
+17:13:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:13:57  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:13:57  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+17:13:58  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+17:14:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:03  INFO  manager.HelperContact - Amount of contacts after is 3
+17:14:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:03  INFO  manager.HelperContact - Amount of contacts before is 3
+17:14:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+17:14:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+17:14:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:08  INFO  manager.HelperContact - Amount of contacts after is 2
+17:14:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:08  INFO  manager.HelperContact - Amount of contacts before is 2
+17:14:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+17:14:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+17:14:13  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:13  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:13  INFO  manager.HelperContact - Amount of contacts after is 1
+17:14:13  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:13  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:13  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:13  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:13  INFO  manager.HelperContact - Amount of contacts before is 1
+17:14:13  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:13  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:13  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+17:14:13  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+17:14:18  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:23  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:23  INFO  manager.HelperContact - Amount of contacts after is 0
+17:14:23  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:28  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:28  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:14:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:14:33  INFO  tests.TestBase - ==================================
+17:14:33  INFO  tests.TestBase - Method removeOneContactPositive is started
+17:14:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:14:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:14:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+17:14:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+17:14:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+17:14:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+17:14:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+17:14:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+17:14:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[1]
+17:14:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[1] is found
+17:14:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:43  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+17:14:43  INFO  manager.HelperContact - Amount of contacts before is 0
+17:14:43  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+17:14:48  INFO  manager.WebDriverListener - Something went wrong!
+17:14:48  INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='contact-item_card__2SOIM']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60601a61d6191c45bfef5d246de1eea9
+*** Element info: {Using=xpath, value=//div[@class='contact-item_card__2SOIM']}
+17:14:48  INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='contact-item_card__2SOIM']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60601a61d6191c45bfef5d246de1eea9
+*** Element info: {Using=xpath, value=//div[@class='contact-item_card__2SOIM']}
+17:14:49  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-888.png
+17:14:49  INFO  tests.TestBase - ==================================
+17:14:49  INFO  tests.TestBase - Method testAddNewContactPositive is started
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:14:49  INFO  tests.TestBase - Phone number is 0533858426889
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='ADD']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='ADD'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Name']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Name'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Last Name']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Last Name'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Phone']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Phone'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='email']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='email'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Address']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Address'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='description']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='description'] is found
+17:14:49  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Save']
+17:14:49  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Save'] is found
+17:14:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+17:14:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+17:14:52  INFO  tests.TestBase - ==================================
+17:14:52  INFO  tests.TestBase - Method testAddNewContactPositive is started
+17:14:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:14:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:14:52  INFO  tests.TestBase - Phone number is 0533858426892
+17:14:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='ADD']
+17:14:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='ADD'] is found
+17:14:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Name']
+17:14:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Name'] is found
+17:14:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Last Name']
+17:14:52  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Last Name'] is found
+17:14:52  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Phone']
+17:14:53  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Phone'] is found
+17:14:53  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='email']
+17:14:53  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='email'] is found
+17:14:53  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Address']
+17:14:53  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Address'] is found
+17:14:53  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='description']
+17:14:53  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='description'] is found
+17:14:53  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Save']
+17:14:53  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Save'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+17:14:56  INFO  tests.TestBase - ==================================
+17:14:56  INFO  tests.TestBase - Method testAddNewContactPositive is started
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:14:56  INFO  tests.TestBase - Phone number is 0533858426896
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='ADD']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='ADD'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Name']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Name'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Last Name']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Last Name'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Phone']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Phone'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='email']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='email'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Address']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Address'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='description']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='description'] is found
+17:14:56  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Save']
+17:14:56  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Save'] is found
+17:14:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+17:14:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+17:14:59  INFO  tests.TestBase - ==================================
+17:14:59  INFO  tests.TestBase - Method testAddNewContactPositive is started
+17:14:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:14:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:14:59  INFO  tests.TestBase - Phone number is 0533858426899
+17:14:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='ADD']
+17:14:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='ADD'] is found
+17:14:59  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Name']
+17:14:59  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Name'] is found
+17:15:00  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Last Name']
+17:15:00  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Last Name'] is found
+17:15:00  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Phone']
+17:15:00  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Phone'] is found
+17:15:00  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='email']
+17:15:00  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='email'] is found
+17:15:00  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Address']
+17:15:00  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Address'] is found
+17:15:00  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='description']
+17:15:00  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='description'] is found
+17:15:00  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Save']
+17:15:00  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Save'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+17:15:03  INFO  tests.TestBase - ==================================
+17:15:03  INFO  tests.TestBase - Method testAddNewContactPositive is started
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+17:15:03  INFO  tests.TestBase - Phone number is 0533858426903
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='ADD']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='ADD'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Name']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Name'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Last Name']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Last Name'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Phone']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Phone'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='email']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='email'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='Address']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='Address'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@placeholder='description']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@placeholder='description'] is found
+17:15:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Save']
+17:15:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Save'] is found
+17:15:06  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+17:15:07  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+17:15:07  INFO  tests.TestBase - ==================================

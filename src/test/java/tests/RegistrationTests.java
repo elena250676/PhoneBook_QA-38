@@ -43,7 +43,7 @@ public class RegistrationTests extends TestBase {
 //                .email("pavlovae434@gmail.com")
 //                .password("Alex@2001")
 //                .build();
-
+        logger.info("User registration");
         app.getUser().openLoginForm();
         logger.info("openRegistrationForm invoked");
         app.getUser().fillLoginForm(user);

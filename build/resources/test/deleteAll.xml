@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Production deleteAll" verbose="1" >
+    <test name="deleteAll">
+        <classes>
+            <class name="tests.DeleteAllContats"/>
+        </classes>
+    </test>
+</suite>

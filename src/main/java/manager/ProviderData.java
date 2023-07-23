@@ -43,8 +43,6 @@ public class ProviderData {
                     .email(split[0])
                     .password(split[1])
                     .build()
-
-
             });
             line = reader.readLine();
         }

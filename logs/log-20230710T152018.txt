@@ -1,0 +1,105 @@
+15:20:19  INFO  manager.AppManager - Tests starting on Chrome
+15:20:20  INFO  tests.TestBase - Method removeAllContactsPositive is started
+15:20:20  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+15:20:25  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+15:20:25  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='LOGIN']
+15:20:25  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='LOGIN'] is found
+15:20:25  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[1]
+15:20:25  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[1] is found
+15:20:25  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[2]
+15:20:25  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[2] is found
+15:20:25  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[1]
+15:20:25  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[1] is found
+15:20:25  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:28  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:28  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:28  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:28  INFO  manager.HelperContact - Amount of contacts before is 5
+15:20:28  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:28  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:28  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+15:20:28  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+15:20:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:33  INFO  manager.HelperContact - Amount of contacts after is 4
+15:20:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:33  INFO  manager.HelperContact - Amount of contacts before is 4
+15:20:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:33  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+15:20:33  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+15:20:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:38  INFO  manager.HelperContact - Amount of contacts after is 3
+15:20:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:38  INFO  manager.HelperContact - Amount of contacts before is 3
+15:20:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:38  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+15:20:38  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+15:20:43  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:43  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:43  INFO  manager.HelperContact - Amount of contacts after is 2
+15:20:43  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:43  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:43  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:43  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:43  INFO  manager.HelperContact - Amount of contacts before is 2
+15:20:43  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:43  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:43  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+15:20:43  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+15:20:48  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:48  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:48  INFO  manager.HelperContact - Amount of contacts after is 1
+15:20:48  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:48  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:48  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:48  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:48  INFO  manager.HelperContact - Amount of contacts before is 1
+15:20:48  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:48  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:48  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[.='Remove']
+15:20:48  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[.='Remove'] is found
+15:20:53  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:20:58  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:20:58  INFO  manager.HelperContact - Amount of contacts after is 0
+15:20:58  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:21:03  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:21:03  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:21:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:21:08  INFO  tests.TestBase - ==================================
+15:21:08  INFO  tests.TestBase - Method removeOneContactPositive is started
+15:21:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.='Sign Out']
+15:21:08  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.='Sign Out'] is found
+15:21:08  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:21:13  INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[@class='contact-item_card__2SOIM'] is found
+15:21:13  INFO  manager.HelperContact - Amount of contacts before is 0
+15:21:13  INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@class='contact-item_card__2SOIM']
+15:21:18  INFO  manager.WebDriverListener - Something went wrong!
+15:21:18  INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='contact-item_card__2SOIM']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64423fb7caf0fc68a8afc72bfc9de78b
+*** Element info: {Using=xpath, value=//div[@class='contact-item_card__2SOIM']}
+15:21:18  INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='contact-item_card__2SOIM']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ELENA', ip: '192.168.68.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\6145~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64423fb7caf0fc68a8afc72bfc9de78b
+*** Element info: {Using=xpath, value=//div[@class='contact-item_card__2SOIM']}
+15:21:19  INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1278.png
+15:21:19  INFO  tests.TestBase - ==================================

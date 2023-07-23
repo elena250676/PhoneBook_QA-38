@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-23T12:19:23" hostname="ELENA" time="13.328">
+  <properties/>
+  <testcase name="loginNegativeUserBuilder" classname="tests.LoginTests" time="4.215"/>
+  <testcase name="loginPositiveUserBuilder" classname="tests.LoginTests" time="4.094"/>
+  <system-out><![CDATA[Wrong email or password
+]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://telranedu.web.app."
+]]></system-err>
+</testsuite>
